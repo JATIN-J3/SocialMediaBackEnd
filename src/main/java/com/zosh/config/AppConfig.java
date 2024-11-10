@@ -47,7 +47,7 @@ public class AppConfig {
 			public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
 				CorsConfiguration cfg = new CorsConfiguration();
 				cfg.setAllowedOrigins(Arrays.asList(
-						"*"
+						"https://social-media-front-end-six.vercel.app"
 						
 
 				));
