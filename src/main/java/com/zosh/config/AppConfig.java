@@ -48,7 +48,8 @@ public class AppConfig {
 				CorsConfiguration cfg = new CorsConfiguration();
 				cfg.setAllowedOrigins(Arrays.asList(
 						"https://social-media-front-end-six.vercel.app"
-						
+					,"http://localhost:3000"
+					
 
 				));
 				cfg.setAllowedMethods(Collections.singletonList("*"));
